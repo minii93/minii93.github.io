@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-05-31T21:11:24+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Minii’s blog</title><subtitle>This is Minii&apos;s blog.
+</subtitle><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><entry><title type="html">구글 크롬 브라우저 유용한 단축키 정리</title><link href="http://localhost:4000/productivity/2022-05-31-chrome-shortcut-keys/" rel="alternate" type="text/html" title="구글 크롬 브라우저 유용한 단축키 정리" /><published>2022-05-31T00:00:00+09:00</published><updated>2022-05-31T19:47:43+09:00</updated><id>http://localhost:4000/productivity/chrome-shortcut-keys</id><content type="html" xml:base="http://localhost:4000/productivity/2022-05-31-chrome-shortcut-keys/"><![CDATA[<p>이 시대에서 인터넷을 이용한 정보 검색 능력은 하루하루를 살아가면서 어떤 일을 하든 없어서는 안 될 필수적인 능력이 되었다.
+쉴 새 없이 변하는 세상 속에서 뒤쳐지지 않으려면 계속해서 새로운 지식을 습득하고 새로운 기술에 적응해야 하니까.
+구글 크롬 같은 웹 브라우저를 쓰면서 단축키만 잘 활용해도 생산성이 훨씬 높아질 것이라는 생각이 들어 우리에게 유용한 단축키 몇 개를 정리해본다.</p>
+
+<h2 id="필수-단축키">필수 단축키</h2>
+
+<p>디지털 문맹이 되고 싶지 않다면 알아둘 필요가 있는 단축키들.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>단축키</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>새로고침</td>
+      <td>F5</td>
+    </tr>
+    <tr>
+      <td>전체화면으로 보기</td>
+      <td>F11</td>
+    </tr>
+    <tr>
+      <td>홈페이지로 이동</td>
+      <td>Alt + Home</td>
+    </tr>
+    <tr>
+      <td>뒤로 가기 (이전 페이지로 이동)</td>
+      <td>Alt + ←</td>
+    </tr>
+    <tr>
+      <td>앞으로 가기 (다음 페이지로 이동)</td>
+      <td>Alt + →</td>
+    </tr>
+    <tr>
+      <td>문자열 찾기</td>
+      <td>Ctrl + F</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="유용한-단축키">유용한 단축키</h2>
+
+<p>생산성을 높여줄 수 있는 유용한 단축키들이 있다. 나도 불필요한 마우스 움직임을 조금 더 줄일 수 없을까 고민하며 검색해서 알게 된 것들이 많아서 이 참에 단축키가 손에 익을 때까지 연습해보려 한다.</p>
+
+<h3 id="창-및-탭">창 및 탭</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>단축키</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>새 창 열기</td>
+      <td>Ctrl + N</td>
+    </tr>
+    <tr>
+      <td>새 시크릿 모드 창 열기</td>
+      <td>Ctrl + Shift + N</td>
+    </tr>
+    <tr>
+      <td>새 탭 열기</td>
+      <td>Ctrl + T</td>
+    </tr>
+    <tr>
+      <td>현재 탭 종료</td>
+      <td>Ctrl + W</td>
+    </tr>
+    <tr>
+      <td>이전 탭으로 이동</td>
+      <td>Ctrl + PageUp 또는 Ctrl + Shift + Tab</td>
+    </tr>
+    <tr>
+      <td>다음 탭으로 이동</td>
+      <td>Ctrl + PageDown 또는 Ctrl + Tab</td>
+    </tr>
+    <tr>
+      <td>처음 8개의 탭 중 원하는 위치의 탭으로 이동</td>
+      <td>Ctrl + 숫자키 (1~8)</td>
+    </tr>
+    <tr>
+      <td>가장 마지막 탭으로 이동</td>
+      <td>Ctrl + 9</td>
+    </tr>
+    <tr>
+      <td>주소창에 바로 입력하기</td>
+      <td>Ctrl + L</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="페이지">페이지</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>단축키</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>페이지의 모든 항목 확대</td>
+      <td>Ctrl + +</td>
+    </tr>
+    <tr>
+      <td>페이지의 모든 항목 축소</td>
+      <td>Ctrl + -</td>
+    </tr>
+    <tr>
+      <td>페이지의 모든 항목을 기본 크기로 되돌리기</td>
+      <td>Ctrl + 0</td>
+    </tr>
+    <tr>
+      <td>웹페이지를 한 번에 아래로 스크롤</td>
+      <td>Space Bar 또는 PageDown</td>
+    </tr>
+    <tr>
+      <td>웹페이지를 한 번에 위로 스크롤</td>
+      <td>Shift + Space Bar 또는 PageUp</td>
+    </tr>
+    <tr>
+      <td>웹페이지 가장 처음으로 이동</td>
+      <td>Home</td>
+    </tr>
+    <tr>
+      <td>웹페이지 가장 끝으로 이동</td>
+      <td>End</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="검색">검색</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>단축키</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>문자열 찾기</td>
+      <td>Ctrl + F</td>
+    </tr>
+    <tr>
+      <td>찾기 단어 다음 항목으로 이동</td>
+      <td>Ctrl + G</td>
+    </tr>
+    <tr>
+      <td>찾기 단어 이전 항목으로 이동</td>
+      <td>Ctrl + Shift + G</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="기타">기타</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>설명</th>
+      <th>단축키</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>파일 다운로드 목록 및 상태 보기</td>
+      <td>Ctrl + J</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>author1</name></author><category term="productivity" /><summary type="html"><![CDATA[작업의 생산성을 높여주는 단축키 모음]]></summary></entry></feed>

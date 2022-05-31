@@ -25,8 +25,7 @@ title: Minii's blog
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  This is Minii's blog.
 
 # A shorter description for the sidebar.
 tagline: Developer & Aerospace Engineer.
@@ -40,10 +39,10 @@ keywords:              []
 logo: /assets/img/profile-stingray.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
-author:
+minii93:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name: Sangmin Lee
+  email: everlastingminii@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -76,12 +75,11 @@ permalink:             /:categories/:year-:month-:day-:title/
 paginate:              10
 paginate_path:         /:num/
 
-
 # Theme
 # ---------------------------------------------------------------------------------------
 
 # theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9
+# remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
