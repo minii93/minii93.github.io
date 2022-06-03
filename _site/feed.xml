@@ -1,11 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-05-31T21:11:24+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Minii’s blog</title><subtitle>This is Minii&apos;s blog.
-</subtitle><author><name>&lt;firstname&gt; &lt;lastname&gt;</name><email>&lt;mail@domain.tld&gt;</email></author><entry><title type="html">구글 크롬 브라우저 유용한 단축키 정리</title><link href="http://localhost:4000/productivity/2022-05-31-chrome-shortcut-keys/" rel="alternate" type="text/html" title="구글 크롬 브라우저 유용한 단축키 정리" /><published>2022-05-31T00:00:00+09:00</published><updated>2022-05-31T19:47:43+09:00</updated><id>http://localhost:4000/productivity/chrome-shortcut-keys</id><content type="html" xml:base="http://localhost:4000/productivity/2022-05-31-chrome-shortcut-keys/"><![CDATA[<p>이 시대에서 인터넷을 이용한 정보 검색 능력은 하루하루를 살아가면서 어떤 일을 하든 없어서는 안 될 필수적인 능력이 되었다.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-06-03T12:10:11+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Minii’s blog</title><subtitle>This is Minii&apos;s blog.
+</subtitle><entry><title type="html">C++ main 함수 이해하기</title><link href="http://localhost:4000/language/2022-06-03-cpp-main-function/" rel="alternate" type="text/html" title="C++ main 함수 이해하기" /><published>2022-06-03T00:00:00+09:00</published><updated>2022-06-03T12:10:11+09:00</updated><id>http://localhost:4000/language/cpp-main-function</id><content type="html" xml:base="http://localhost:4000/language/2022-06-03-cpp-main-function/"><![CDATA[<p>C 또는 C++ 언어로 코딩을 하면 다음과 같이 생긴 main 함수를 정의하게 된다.</p>
+
+<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="n">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
+</code></pre></div></div>
+
+<p>이 함수는 C/C++ 프로그램을 실행했을 때 호출되는 함수로, 명령어 인자(command line argument)를 받기 위해 위와 같은 형태를 가지고 있다. <code class="language-plaintext highlighter-rouge">argc</code>는 argument count의 줄임말로 <code class="language-plaintext highlighter-rouge">argv</code>가 가리키고 있는 문자열의 개수를 나타내며, <code class="language-plaintext highlighter-rouge">argv</code>는 argument vector의 줄임말로 문자열 배열을 가리킨다. <code class="language-plaintext highlighter-rouge">argv</code>의 첫 번째 문자열은 시스템에서 호출한 실행 파일의 이름이며, 프로그램을 실행할 때 추가적인 인자를 전달해주면 그 인자들은 차례대로 두 번째, 세 번째, … 문자열에 저장된다.</p>
+
+<p>예를 들어, <code class="language-plaintext highlighter-rouge">example.cpp</code> 파일을 다음과 같이 작성해보자.</p>
+
+<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span><span class="o">**</span> <span class="n">argv</span><span class="p">){</span>
+	<span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">argc</span> <span class="o">&lt;&lt;</span> <span class="s">" arguments are passed:"</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+	<span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">argc</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">){</span>
+		<span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">argv</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>터미널에서 컴파일을 해주고</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>g++ <span class="nt">-c</span> example.cpp
+g++ <span class="nt">-o</span> example example.o
+</code></pre></div></div>
+
+<p>실행하면</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./example Hello World!
+</code></pre></div></div>
+
+<p>다음과 같은 출력을 얻는다.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>3 arguments are passed:
+./example
+Hello
+World!
+</code></pre></div></div>
+
+<p>위의 실행 코드에서 <code class="language-plaintext highlighter-rouge">./example</code>이 실행 파일명, <code class="language-plaintext highlighter-rouge">Hello</code>, <code class="language-plaintext highlighter-rouge">World!</code>가 각각 파일을 실행할 때 같이 전달해준 명령어 인자에 해당한다.</p>]]></content><author><name>Sangmin Lee</name><email>everlastingminii@gmail.com</email></author><category term="language" /><summary type="html"><![CDATA[main 함수에 대한 설명 및 예제 코드]]></summary></entry><entry><title type="html">구글 크롬 브라우저 유용한 단축키 정리</title><link href="http://localhost:4000/productivity/2022-05-31-chrome-shortcut-keys/" rel="alternate" type="text/html" title="구글 크롬 브라우저 유용한 단축키 정리" /><published>2022-05-31T00:00:00+09:00</published><updated>2022-06-03T11:27:12+09:00</updated><id>http://localhost:4000/productivity/chrome-shortcut-keys</id><content type="html" xml:base="http://localhost:4000/productivity/2022-05-31-chrome-shortcut-keys/"><![CDATA[<p>이 시대에서 인터넷을 이용한 정보 검색 능력은 하루하루를 살아가면서 어떤 일을 하든 없어서는 안 될 필수적인 능력이 되었다.
 쉴 새 없이 변하는 세상 속에서 뒤쳐지지 않으려면 계속해서 새로운 지식을 습득하고 새로운 기술에 적응해야 하니까.
-구글 크롬 같은 웹 브라우저를 쓰면서 단축키만 잘 활용해도 생산성이 훨씬 높아질 것이라는 생각이 들어 우리에게 유용한 단축키 몇 개를 정리해본다.</p>
+구글 크롬 같은 웹 브라우저를 쓰면서 단축키만 잘 활용해도 생산성이 훨씬 높아질 것이라는 생각이 들어 알아두면 유용한 단축키 몇 개를 정리해본다.</p>
 
 <h2 id="필수-단축키">필수 단축키</h2>
 
-<p>디지털 문맹이 되고 싶지 않다면 알아둘 필요가 있는 단축키들.</p>
+<p>디지털 문맹이 되고 싶지 않다면 알아둘 필요가 있는 필수 단축키들.</p>
 
 <table>
   <thead>
@@ -44,7 +82,7 @@
 
 <h2 id="유용한-단축키">유용한 단축키</h2>
 
-<p>생산성을 높여줄 수 있는 유용한 단축키들이 있다. 나도 불필요한 마우스 움직임을 조금 더 줄일 수 없을까 고민하며 검색해서 알게 된 것들이 많아서 이 참에 단축키가 손에 익을 때까지 연습해보려 한다.</p>
+<p>그 외에 생산성을 높여줄 수 있는 유용한 단축키들이 있다. 나도 불필요한 마우스 움직임을 어떻게 더 줄일 수 없을까 고민하다 검색해서 알게 된 것들이 많아서 이 참에 단축키가 손에 익을 때까지 연습해보려 한다.</p>
 
 <h3 id="창-및-탭">창 및 탭</h3>
 
@@ -176,4 +214,4 @@
       <td>Ctrl + J</td>
     </tr>
   </tbody>
-</table>]]></content><author><name>author1</name></author><category term="productivity" /><summary type="html"><![CDATA[작업의 생산성을 높여주는 단축키 모음]]></summary></entry></feed>
+</table>]]></content><author><name>Sangmin Lee</name><email>everlastingminii@gmail.com</email></author><category term="productivity" /><summary type="html"><![CDATA[작업의 생산성을 높여주는 단축키 모음]]></summary></entry></feed>

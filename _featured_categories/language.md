@@ -3,16 +3,16 @@
 layout: list
 
 # The title of the tag's page.
-title: Productivity
+title: Language
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: productivity
+slug: language
 
 order: 1
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Enhancing productivity of the life.
+  Programming languages.
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true

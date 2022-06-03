@@ -50,6 +50,8 @@ minii93:
 menu:
   - title: Productivity
     url: /productivity/
+  - title: Language
+    url: /language/
 #  - title:             Documentation
 #    url:               /docs/
 #  - title:             About
