@@ -52,6 +52,8 @@ menu:
     url: /productivity/
   - title: Language
     url: /language/
+  - title: 시뮬레이션
+    url: /simulation/
 #  - title:             Documentation
 #    url:               /docs/
 #  - title:             About
